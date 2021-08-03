@@ -1,7 +1,7 @@
 /*
 * ----------------------------------------------------
 Author       : Ideas_Factory
-Template Name: Karizma - Modern vCard / Resume / CV / Portfolio
+Template Name: Karizma - Modern vCard / Education / CV / Portfolio
 * ----------------------------------------------------
 */
 
@@ -12,7 +12,7 @@ Template Name: Karizma - Modern vCard / Resume / CV / Portfolio
 *  03.Home
 *  04.Menu
 *  05.About Section 
-*  06.Resume Section 
+*  06.Education Section 
 *  07.Services Section 
 *  08.Prtfolio Section
 *  09.Blog Section
@@ -193,12 +193,12 @@ a:hover, a:focus {
 
 .home_type .more_info a:hover,
 .skills .skill div span,
-.resume .date:after,
+.education .date:after,
 a.rslides_nav.rslides1_nav:hover,
 .services .font-icon i,
 li.active_filter:after,
 .zoom-anim-dialog a.demo:hover,
-.contact .contact_form .submit:hover {
+.contact .contact_form .submit:hover, .portfolio .date:after {
     background-color: #47A3DA;
 }
 
@@ -206,11 +206,11 @@ li.active_filter:after,
 .home_type .more_info a:hover,
 .testimonials .arrows span:hover,
 .fun-facts h4,
-.resume .item,
+.education .item,
 .services .font-icon i,
 .zoom-anim-dialog a.demo,
 .form-control:focus,
-.contact .contact_form .submit:hover {
+.contact .contact_form .submit:hover, .portfolio .item {
     border-color: #47A3DA;
 }
 
@@ -687,10 +687,10 @@ g.Header {
 
 
 /*=================================*/
-/*  06.Resume Section 
+/*  06.Education Section 
 /*=================================*/
 
-.resume h3 {
+.education h3 {
     display: inline-block;
     font-size: 17px;
     text-transform: uppercase;
@@ -699,7 +699,7 @@ g.Header {
     margin-bottom: 45px;
 }
 
-.resume .item {
+.education .item {
     position: relative;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -709,16 +709,16 @@ g.Header {
     border-left-style: solid;
 }
 
-.resume .item:last-of-type {
+.education .item:last-of-type {
     padding-bottom: 2px;
 }
 
-.resume .date {
+.education .date {
     position: relative;
     line-height: 1;
 }
 
-.resume .date:after, .resume .date:before {
+.education .date:after, .education .date:before {
     content: "";
     position: absolute;
     top: 11px;
@@ -728,7 +728,7 @@ g.Header {
     border-radius: 50%;
 }
 
-.resume .date:before {
+.education .date:before {
     background: #FFFFFF;
     width: 15px;
     height: 15px;
@@ -736,23 +736,23 @@ g.Header {
     left: -23px;
 }
 
-.resume .date span {
+.education .date span {
     font-size: 14px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.5);
     letter-spacing: 0.5px;
 }
 
-.resume h4 {
+.education h4 {
     color: #222;
     font-size: 17px;
 }
 
-.resume .item p {
+.education .item p {
     font-size: 15px;
 }
 
-/*End Resume Section*/
+/*End Education Section*/
 
 
 
@@ -988,6 +988,72 @@ a.rslides_nav.rslides1_nav.next {
 .zoom-anim-dialog iframe {
     width: 100%;
     max-width: 100%;
+}
+
+
+/* my css */
+
+
+.portfolio h3 {
+    display: inline-block;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #252525;
+    margin-bottom: 45px;
+}
+
+.portfolio .item {
+    position: relative;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 4px;
+    margin-left: 5px;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+.portfolio .item:last-of-type {
+    padding-bottom: 2px;
+}
+
+.portfolio .date {
+    position: relative;
+    line-height: 1;
+}
+
+.portfolio .date:after, .portfolio .date:before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: -20px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+.portfolio .date:before {
+    background: #FFFFFF;
+    width: 15px;
+    height: 15px;
+    top: 8px;
+    left: -23px;
+}
+
+.portfolio .date span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.5px;
+}
+
+.portfolio h4 {
+    color: #222;
+    font-size: 17px;
+}
+
+.portfolio .item p {
+    font-size: 15px;
 }
 
 /*End Prtfolio Section*/
