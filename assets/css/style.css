@@ -994,7 +994,7 @@ a.rslides_nav.rslides1_nav.next {
 /* my css */
 
 
-.resume h3 {
+.portfolio h3 {
     display: inline-block;
     font-size: 17px;
     text-transform: uppercase;
@@ -1003,7 +1003,7 @@ a.rslides_nav.rslides1_nav.next {
     margin-bottom: 45px;
 }
 
-.resume .item {
+.portfolio .item {
     position: relative;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -1013,16 +1013,16 @@ a.rslides_nav.rslides1_nav.next {
     border-left-style: solid;
 }
 
-.resume .item:last-of-type {
+.portfolio .item:last-of-type {
     padding-bottom: 2px;
 }
 
-.resume .date {
+.portfolio .date {
     position: relative;
     line-height: 1;
 }
 
-.resume .date:after, .resume .date:before {
+.portfolio .date:after, .portfolio .date:before {
     content: "";
     position: absolute;
     top: 11px;
@@ -1032,7 +1032,7 @@ a.rslides_nav.rslides1_nav.next {
     border-radius: 50%;
 }
 
-.resume .date:before {
+.portfolio .date:before {
     background: #FFFFFF;
     width: 15px;
     height: 15px;
@@ -1040,19 +1040,19 @@ a.rslides_nav.rslides1_nav.next {
     left: -23px;
 }
 
-.resume .date span {
+.portfolio .date span {
     font-size: 14px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.5);
     letter-spacing: 0.5px;
 }
 
-.resume h4 {
+.portfolio h4 {
     color: #222;
     font-size: 17px;
 }
 
-.resume .item p {
+.portfolio .item p {
     font-size: 15px;
 }
 
