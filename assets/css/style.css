@@ -198,7 +198,7 @@ a.rslides_nav.rslides1_nav:hover,
 .services .font-icon i,
 li.active_filter:after,
 .zoom-anim-dialog a.demo:hover,
-.contact .contact_form .submit:hover {
+.contact .contact_form .submit:hover, .portfolio .date:after {
     background-color: #47A3DA;
 }
 
@@ -210,7 +210,7 @@ li.active_filter:after,
 .services .font-icon i,
 .zoom-anim-dialog a.demo,
 .form-control:focus,
-.contact .contact_form .submit:hover {
+.contact .contact_form .submit:hover, .portfolio .item {
     border-color: #47A3DA;
 }
 
@@ -988,6 +988,72 @@ a.rslides_nav.rslides1_nav.next {
 .zoom-anim-dialog iframe {
     width: 100%;
     max-width: 100%;
+}
+
+
+/* my css */
+
+
+.resume h3 {
+    display: inline-block;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #252525;
+    margin-bottom: 45px;
+}
+
+.resume .item {
+    position: relative;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 4px;
+    margin-left: 5px;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+.resume .item:last-of-type {
+    padding-bottom: 2px;
+}
+
+.resume .date {
+    position: relative;
+    line-height: 1;
+}
+
+.resume .date:after, .resume .date:before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: -20px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+.resume .date:before {
+    background: #FFFFFF;
+    width: 15px;
+    height: 15px;
+    top: 8px;
+    left: -23px;
+}
+
+.resume .date span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.5px;
+}
+
+.resume h4 {
+    color: #222;
+    font-size: 17px;
+}
+
+.resume .item p {
+    font-size: 15px;
 }
 
 /*End Prtfolio Section*/
