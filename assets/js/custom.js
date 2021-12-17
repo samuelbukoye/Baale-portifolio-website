@@ -1,32 +1,7 @@
-/*global $*/
-
 $(function () {
     
     "use strict";
     
-/*==================================
-    * Author        : Ideas_Factory
-    * Template Name : Karizma - Modern vCard / Resume / CV / Portfolio
-==================================== */
-    
-/*=========== TABLE OF CONTENTS ===========
-
-    01. Preloader
-    02. Isotope Plugin
-    03. Functions 
-    04. Menu
-    05. responsiveSlides plugin
-    06. Form Validation
-    07. Window Resize
-    08. MagnifPopup Plugin
-    09. Type Plugin
-    10. fitText plugin
-    11. Slick plugin
-    12. Jquery.matchHeight Plugin
-    13. Jquery.pogo-slider Plugin
-    14. Jquery.mb.YTPlayer Plugin
-
-======================================*/
 
     var $grid = $('.grid');
 
